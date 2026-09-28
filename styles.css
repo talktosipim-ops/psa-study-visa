@@ -369,7 +369,7 @@ linear-gradient(180deg,rgba(255,255,255,0) 55%,rgba(7,27,47,.22) 100%)}
   will-change:transform,opacity;
 }
 .hero-motion .slide-1{
-  background-image:url('https://images.unsplash.com/photo-1758270704524-596810e891b5?auto=format&fit=crop&fm=jpg&q=82&w=2200');
+  background-image:url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&fm=jpg&q=82&w=2200');
   background-position:center 45%;
   animation-delay:0s;
 }
