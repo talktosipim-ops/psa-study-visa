@@ -1093,3 +1093,141 @@ body{background:#FFFDF7!important}
 @media(prefers-reduced-motion:reduce){
   .hero-carousel-slide{transition:none}
 }
+
+
+/* PSA Blue Red Travel Theme */
+:root{
+  --red:#E94B4B;
+  --red-dark:#C93636;
+  --navy:#19B5E8;
+  --deep-green:#0D6E99;
+  --mint:#D9F2FB;
+  --yellow:#F7C948;
+  --ink:#173042;
+  --muted:#607483;
+  --line:#DDECF3;
+  --soft:#F4FBFE;
+  --white:#fff;
+  --shadow:0 18px 50px rgba(13,110,153,.12);
+}
+
+/* Global surfaces */
+body{background:#FFFDF8!important;color:var(--ink)!important}
+.header,.header-v2{background:rgba(255,255,255,.97)!important;border-bottom-color:#DDECF3!important}
+.brand{color:#0D6E99!important}
+.brandmark,.brandmark-v2{background:linear-gradient(145deg,#19B5E8,#0D6E99)!important}
+.brandmark:after,.brandmark-v2:after{background:#E94B4B!important}
+.brandtext small{color:#E94B4B!important}
+.navlinks a:after{background:#E94B4B!important}
+.navcta,.btn-primary{background:#E94B4B!important;color:#fff!important;box-shadow:0 10px 24px rgba(233,75,75,.22)!important}
+.navcta:hover,.btn-primary:hover{background:#C93636!important}
+.btn-secondary{background:#fff!important;color:#0D6E99!important;border-color:#BFDDEB!important}
+
+/* Utility + footer */
+.travel-utility{background:#0D6E99!important;color:#F3FBFF!important}
+.footer,.footer-v2{background:#0A5778!important;color:#EFF9FD!important}
+.footer a{color:#EFF9FD!important}
+.footer .small,.footer-bottom{color:#CDE7F2!important}
+.legal-trust-line{color:#D9EEF6!important;border-top-color:rgba(255,255,255,.14)!important}
+
+/* Hero */
+.travel-hero,.hero-carousel{background:#0D6E99!important}
+.hero-carousel-shade{
+  background:linear-gradient(90deg,rgba(7,63,91,.92) 0%,rgba(13,110,153,.82) 42%,rgba(25,181,232,.28) 72%,rgba(25,181,232,.12) 100%)!important
+}
+.hero-carousel-shade-camp{
+  background:linear-gradient(90deg,rgba(8,77,106,.92) 0%,rgba(18,139,180,.78) 42%,rgba(25,181,232,.25) 72%,rgba(25,181,232,.10) 100%)!important
+}
+.hero-carousel-shade-study{
+  background:linear-gradient(90deg,rgba(7,63,91,.92) 0%,rgba(11,91,129,.82) 42%,rgba(25,181,232,.24) 72%,rgba(25,181,232,.10) 100%)!important
+}
+.hero-carousel .travel-kicker{color:#F7C948!important}
+.hero-carousel-dots{background:rgba(7,63,91,.30)!important}
+.hero-carousel-dots button.is-active{background:#E94B4B!important}
+.hero-carousel-arrow{background:rgba(7,63,91,.35)!important}
+.hero-carousel-arrow:hover{background:#E94B4B!important}
+.travel-ghost{background:rgba(255,255,255,.13)!important;border-color:rgba(255,255,255,.55)!important;color:#fff!important}
+.travel-country-line span{background:rgba(255,255,255,.12)!important;border-color:rgba(255,255,255,.20)!important}
+
+/* 60% light */
+.travel-destinations,
+.flight-feature,
+.visitor-visa-section,
+.custom-camp-section,
+.english-corner-home,
+.student-stories,
+.page-hero,
+.study-abroad-section{background:#FFFDF8!important}
+.travel-services,
+.travel-trust,
+.services-v2,
+.destinations-v2{background:#F4FBFE!important}
+
+/* 30% blue structure */
+.travel-service-icon,
+.search-float,.search-float-clean,
+.summer-feature-side,
+.visitor-visa-checklist,
+.custom-camp-flow,
+.english-phrase-box,.english-cta-inner,
+.summer-travel-copy{
+  background:linear-gradient(145deg,#19B5E8,#0D6E99)!important
+}
+.section-title,
+.travel-service-grid h3,
+.travel-quick-grid b,
+.visitor-visa-country h3,
+.text-link,
+.study-partner-card h3{color:#0D6E99!important}
+
+/* 10% red accent */
+.section-kicker,
+.hero-destinations,
+.travel-service-grid a,
+.travel-quick-grid em,
+.visitor-visa-country small,
+.study-partner-card small,
+.partner-site-link b{color:#E94B4B!important}
+.hero-priority-badge{
+  background:#FFF1F1!important;
+  border-color:#F6B3B3!important;
+  color:#0D6E99!important
+}
+.custom-camp-badge,.travel-trust-card{background:linear-gradient(145deg,#E94B4B,#F16A6A)!important}
+.visitor-visa-tip{background:#FFF2F2!important;border-left-color:#E94B4B!important}
+.travel-final-cta,.final-cta-v2{background:#FFFDF8!important}
+.travel-final-cta .final-cta-grid>div:first-child{background:#E94B4B!important}
+
+/* Cards */
+.travel-quick-grid,
+.travel-service-grid article,
+.visitor-visa-card,
+.travel-trust-points span,
+.contact-chip,
+.english-card,
+.custom-options-grid>div,
+.study-partner-card{background:#fff!important;border-color:#DDECF3!important}
+.travel-quick-grid{box-shadow:0 20px 50px rgba(13,110,153,.14)!important}
+.study-partner-card{box-shadow:0 10px 30px rgba(13,110,153,.07)!important}
+.study-partner-card:hover{box-shadow:0 18px 42px rgba(13,110,153,.14)!important;border-color:#BFDDEB!important}
+.partner-logo-wrap{background:linear-gradient(180deg,#fff,#F4FBFE)!important;border-bottom-color:#E7F2F7!important}
+.partner-country-row span{color:#0D6E99!important;border-color:#DDECF3!important}
+.partner-site-link{color:#0D6E99!important;border-top-color:#EDF5F8!important}
+.study-abroad-note{background:linear-gradient(120deg,#19B5E8,#0D6E99)!important}
+
+/* Flight board */
+.flight-board{background:linear-gradient(145deg,#0D6E99,#084E6E)!important;box-shadow:0 20px 44px rgba(13,110,153,.22)!important}
+.flight-board b{color:#F7C948!important}
+
+/* Destination overlays */
+.travel-destination-card:after{
+  background:linear-gradient(180deg,rgba(13,110,153,.03),rgba(7,63,91,.88))!important
+}
+.travel-destination-card small{color:#FFD8D8!important}
+
+/* Mobile */
+@media(max-width:640px){
+  .hero-carousel-shade,.hero-carousel-shade-camp,.hero-carousel-shade-study{
+    background:linear-gradient(180deg,rgba(7,63,91,.92) 0%,rgba(13,110,153,.76) 58%,rgba(25,181,232,.38) 100%)!important
+  }
+}
