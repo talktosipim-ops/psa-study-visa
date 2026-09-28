@@ -29,3 +29,16 @@ if(form){
    renderResults(filtered);
  });
 }
+
+
+/* Floating Messenger chat button */
+if (!document.querySelector('.floating-messenger')) {
+  const messengerButton = document.createElement('a');
+  messengerButton.className = 'floating-messenger';
+  messengerButton.href = 'https://m.me/planstudyagency';
+  messengerButton.target = '_blank';
+  messengerButton.rel = 'noopener';
+  messengerButton.setAttribute('aria-label', 'Chat with Us on Messenger');
+  messengerButton.innerHTML = '<span class="floating-messenger-icon" aria-hidden="true">✦</span><span class="floating-messenger-label">Chat with Us</span>';
+  document.body.appendChild(messengerButton);
+}
