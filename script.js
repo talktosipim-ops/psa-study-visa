@@ -12,7 +12,8 @@ const partnerInstitutions=[
  {country:'Australia',provider:'ALS College',areas:['English','Business','Other'],website:'https://alscollege.com.au/',note:'Brisbane — มีหลักสูตรภาษาอังกฤษและสายอาชีพ'},
  {country:'Australia',provider:'Reach Community College',areas:['English','Business','Information Technology','Hospitality','Community Services','Automotive / Trades','Other'],website:'https://reachcollege.edu.au/',note:'มีหลักสูตรหลายสาย และแคมปัสใน NSW, VIC และ Tasmania'},
  {country:'Australia',provider:'Milner International College of English',areas:['English'],website:'https://www.milner.wa.edu.au/',note:'Perth — สถาบันภาษาอังกฤษตัวแทน PSA'},
- {country:'Australia',provider:'Holmes Institute',areas:['Business','Information Technology','Accounting & Finance','Cybersecurity','Education & Teaching','Aviation','Fashion','Other'],website:'https://holmes.edu.au/',note:'Melbourne, Sydney, Brisbane และ Gold Coast — มีหลักสูตรระดับอุดมศึกษาหลากหลายสาขา'}
+ {country:'Australia',provider:'Holmes Institute',areas:['Business','Information Technology','Accounting & Finance','Cybersecurity','Education & Teaching','Aviation','Fashion','Other'],website:'https://holmes.edu.au/',note:'Melbourne, Sydney, Brisbane และ Gold Coast — มีหลักสูตรระดับอุดมศึกษาหลากหลายสาขา'},
+ {country:'New Zealand',provider:'Auckland English Academy',areas:['English'],website:'https://english.co.nz/',note:'Auckland — Communication English, IELTS และ PTE preparation; เป็นส่วนหนึ่งของ ICL Education Group'}
 ];
 function renderResults(items){
  if(!results)return;
