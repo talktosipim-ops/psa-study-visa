@@ -244,3 +244,43 @@ linear-gradient(180deg,rgba(255,255,255,0) 55%,rgba(7,27,47,.22) 100%)}
   .hero-clean-copy{padding-top:38px !important;padding-bottom:70px !important}
   .hero-clean-copy h1{font-size:42px !important;max-width:95% !important}
 }
+
+
+/* Partner institutions */
+.partner-strip-section{padding:18px 0 64px;background:#fff}
+.partner-strip-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:18px}
+.partner-strip-head h2{margin:4px 0 0;color:var(--navy);font-size:30px}
+.partner-strip-head>a{font-weight:800;color:var(--navy)}
+.partner-strip{display:grid;grid-template-columns:repeat(7,1fr);border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff}
+.partner-strip span{min-height:72px;display:grid;place-items:center;text-align:center;padding:12px;font-size:13px;font-weight:800;color:var(--navy);border-right:1px solid var(--line)}
+.partner-strip span:last-child{border-right:0}
+
+.partners-hero{padding:72px 0;background:linear-gradient(120deg,#f9fbfd,#eef4fa)}
+.partners-hero-inner{display:grid;grid-template-columns:1.4fr .6fr;gap:60px;align-items:center}
+.partners-hero h1{font-size:clamp(44px,5vw,68px);margin:8px 0 18px}
+.partners-hero p{max-width:720px;color:#52606d;font-size:18px}
+.partner-count-card{background:var(--navy);color:#fff;border-radius:24px;padding:38px;text-align:center;box-shadow:var(--shadow)}
+.partner-count-card strong{display:block;font-size:72px;line-height:1;color:#fff}
+.partner-count-card span{display:block;font-size:18px;font-weight:800;margin-top:8px}
+.partner-count-card small{display:block;color:#c7d3de;margin-top:8px}
+.partner-directory{padding:72px 0}
+.partner-directory-head{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:28px}
+.partner-directory-head>p{max-width:460px;color:var(--muted);margin:0}
+.partner-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.partner-card{border:1px solid var(--line);border-radius:20px;padding:24px;background:#fff;box-shadow:0 10px 28px rgba(11,42,74,.06);display:flex;flex-direction:column;min-height:290px}
+.partner-card h3{color:var(--navy);font-size:20px;line-height:1.25;margin:12px 0 8px}
+.partner-card p{color:var(--muted);font-size:14px;margin:0 0 18px}
+.partner-logo{width:64px;height:64px;border-radius:16px;display:grid;place-items:center;font-weight:950;font-size:22px;background:#eef3f8;color:var(--navy)}
+.partner-logo.gamma{background:#fff0f1;color:var(--red)}
+.partner-logo.icl{background:#eef7ff;color:#154f7c}.partner-logo.npa{background:#eef2f6;color:#1a3551}
+.partner-logo.browns{background:#f3efe6;color:#5b472b}.partner-logo.als{background:#eef8f3;color:#166b45}
+.partner-logo.reach{background:#f1efff;color:#4e3ca0}.partner-logo.milner{background:#fff5e9;color:#8a541d}
+.partner-meta{margin-top:14px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--red)}
+.partner-action,.partner-links{margin-top:auto;font-weight:800;font-size:14px}
+.partner-action{color:var(--navy)}
+.partner-links{display:flex;gap:14px;flex-wrap:wrap}
+.partner-links a:first-child{color:var(--red)}.partner-links a:last-child{color:var(--navy)}
+.partner-note{margin-top:28px;background:#f7f9fc;border:1px solid var(--line);border-radius:20px;padding:26px 28px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.partner-note strong{font-size:22px;color:var(--navy)}.partner-note p{margin:4px 0 0;color:var(--muted)}
+@media(max-width:980px){.partner-strip{grid-template-columns:repeat(4,1fr)}.partner-strip span{border-bottom:1px solid var(--line)}.partners-hero-inner{grid-template-columns:1fr}.partner-count-card{max-width:280px}.partner-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.partner-strip-head,.partner-directory-head,.partner-note{display:block}.partner-strip-head>a{display:inline-block;margin-top:8px}.partner-strip{grid-template-columns:1fr 1fr}.partner-strip span{border-right:1px solid var(--line);min-height:62px}.partners-hero{padding:50px 0}.partner-grid{grid-template-columns:1fr}.partner-note .btn{margin-top:16px}.partner-directory{padding:52px 0}}
