@@ -179,3 +179,68 @@ linear-gradient(180deg,rgba(255,255,255,0) 55%,rgba(7,27,47,.22) 100%)}
   .hero-clean .hero-tagline{font-size:12px;max-width:70%}
   .search-float-clean{margin-top:-22px}
 }
+
+
+/* Final hero stabilization */
+.hero-clean .hero-cover-wrap{
+  position:relative !important;
+  min-height:520px !important;
+  overflow:hidden !important;
+  background:#eef3f8 !important;
+}
+.hero-clean .hero-cover{
+  position:absolute !important;
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  min-height:0 !important;
+  object-fit:cover !important;
+  object-position:center 45% !important;
+  opacity:1 !important;
+  display:block !important;
+}
+.hero-clean-shade{
+  position:absolute !important;
+  inset:0 !important;
+  background:linear-gradient(90deg,rgba(255,255,255,.97) 0%,rgba(255,255,255,.90) 32%,rgba(255,255,255,.58) 48%,rgba(255,255,255,.10) 70%,rgba(255,255,255,0) 100%) !important;
+  z-index:1 !important;
+}
+.hero-clean-copy{
+  position:relative !important;
+  z-index:2 !important;
+  padding-top:72px !important;
+  padding-bottom:84px !important;
+}
+.hero-clean-copy h1{
+  margin:0 !important;
+  max-width:560px !important;
+  font-size:clamp(46px,4.8vw,66px) !important;
+  line-height:1.02 !important;
+}
+.hero-clean-copy h1 span{
+  display:inline-block !important;
+  font-size:.56em !important;
+  margin-top:10px !important;
+}
+.hero-clean-copy>p{
+  max-width:530px !important;
+  margin-top:18px !important;
+}
+.hero-clean .hero-tagline{
+  display:none !important;
+}
+.search-float-clean{
+  margin-top:-28px !important;
+}
+@media(max-width:900px){
+  .hero-clean .hero-cover-wrap{min-height:500px !important}
+  .hero-clean .hero-cover{object-position:60% center !important}
+  .hero-clean-shade{background:linear-gradient(90deg,rgba(255,255,255,.98),rgba(255,255,255,.82) 58%,rgba(255,255,255,.22) 100%) !important}
+}
+@media(max-width:640px){
+  .hero-clean .hero-cover-wrap{min-height:560px !important}
+  .hero-clean .hero-cover{object-position:66% center !important}
+  .hero-clean-shade{background:linear-gradient(180deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.93) 55%,rgba(255,255,255,.45) 100%) !important}
+  .hero-clean-copy{padding-top:38px !important;padding-bottom:70px !important}
+  .hero-clean-copy h1{font-size:42px !important;max-width:95% !important}
+}
