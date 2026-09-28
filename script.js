@@ -5,7 +5,7 @@ if(menuBtn&&navlinks){menuBtn.addEventListener('click',()=>{const open=navlinks.
 const form=document.querySelector('#courseForm');
 const results=document.querySelector('#results');
 const partnerInstitutions=[
- {country:'Australia',provider:'Gamma College',areas:['Other'],website:'',note:'สถาบันตัวแทน PSA — ติดต่อ PSA เพื่อค้นหาหลักสูตรที่เปิดรับล่าสุด'},
+ {country:'Australia',provider:'Gamma College',areas:['English','Business','Information Technology','Hospitality','Automotive / Trades','Other'],website:'https://gamma.edu.au/',note:'Brisbane, Sydney และ Melbourne — RTO 41477 · CRICOS 03580F; มี General English, EAP, Business, IT, Project Management, Hospitality, Cookery และหลักสูตรสายช่าง'},
  {country:'New Zealand',provider:'ICL Education Group',areas:['English','Business','Information Technology','Other'],website:'https://www.icl.ac.nz/',note:'Auckland — มีหลักสูตรภาษาอังกฤษ ธุรกิจ และโปรแกรมระดับสูงหลายระดับ'},
  {country:'Australia',provider:'National Polytechnic of Australia (NPA)',areas:['Business','Information Technology','Hospitality','Automotive / Trades','Other'],website:'https://npa.edu.au/',note:'สถาบันตัวแทน PSA — ตรวจสอบหลักสูตรและ intake ล่าสุดก่อนสมัคร'},
  {country:'Australia',provider:'BROWNS English Language School',areas:['English'],website:'https://brownsenglish.edu.au/',note:'สถาบันภาษาอังกฤษ — ตรวจสอบแคมปัสและโปรแกรมล่าสุดก่อนสมัคร'},
