@@ -454,3 +454,8 @@ linear-gradient(180deg,rgba(255,255,255,0) 55%,rgba(7,27,47,.22) 100%)}
 .footer-social .facebook-link{display:inline-flex;align-items:center;gap:8px;color:#fff;font-size:13px;font-weight:800;text-decoration:none}
 .footer-social .facebook-link:before{content:"f";width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:#1877f2;color:#fff;font-weight:900;font-family:Arial,sans-serif}
 .footer-social .facebook-link:hover{opacity:.85}
+
+.footer-social{display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap}
+.footer-social .messenger-link{display:inline-flex;align-items:center;gap:8px;color:#fff;font-size:13px;font-weight:800;text-decoration:none}
+.footer-social .messenger-link:before{content:"✦";width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:#0084ff;color:#fff;font-size:12px}
+.footer-social .messenger-link:hover{opacity:.85}
