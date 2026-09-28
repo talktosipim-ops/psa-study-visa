@@ -288,3 +288,62 @@ linear-gradient(180deg,rgba(255,255,255,0) 55%,rgba(7,27,47,.22) 100%)}
 .partner-logo.holmes{background:#eef4fb;color:#173b63}
 
 .partner-logo.aea{background:#edf7fb;color:#0f6177}
+
+
+/* Summer Camp primary positioning */
+.summer-nav-link{color:var(--red)!important;font-weight:900!important}
+.hero-priority-badge{display:inline-flex;background:var(--red);color:#fff;border-radius:999px;padding:7px 12px;font-size:11px;font-weight:900;letter-spacing:.12em;margin-bottom:14px}
+.hero-clean-copy h1 strong{color:var(--red)}
+.summer-feature-wrap{position:relative;z-index:6;margin-top:-10px}
+.summer-feature{display:grid;grid-template-columns:1.45fr .55fr;background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:0 18px 46px rgba(11,42,74,.12);margin-bottom:26px}
+.summer-feature-copy{padding:32px 34px}
+.summer-feature-copy h2{font-size:clamp(30px,3.6vw,48px);line-height:1.05;color:var(--navy);margin:6px 0 12px}
+.summer-feature-copy>p{color:var(--muted);max-width:760px;margin:0}
+.summer-points{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.summer-points span{background:#f4f7fa;border:1px solid var(--line);border-radius:999px;padding:8px 11px;font-size:12px;font-weight:800;color:var(--navy)}
+.summer-feature-side{background:linear-gradient(145deg,#0b2a4a,#123f6c);color:#fff;padding:34px;display:flex;flex-direction:column;justify-content:center;min-height:270px}
+.summer-side-label{color:#ff6a73;font-size:12px;font-weight:900;letter-spacing:.12em;margin-bottom:12px}
+.summer-feature-side strong{font-size:38px;line-height:1.08}
+.summer-feature-side small{margin-top:18px;color:#c9d5e0;letter-spacing:.08em}
+
+.summer-page-hero{padding:72px 0;background:linear-gradient(120deg,#f8fbff,#fff)}
+.summer-page-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:54px;align-items:center}
+.summer-page-hero h1{font-size:clamp(46px,5.6vw,72px);margin:10px 0 18px}
+.summer-page-hero h1 strong{color:var(--red)}
+.summer-page-hero p{max-width:720px;color:var(--muted);font-size:18px}
+.summer-hero-card{min-height:430px;border-radius:28px;background:linear-gradient(145deg,#092947,#123f6c);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;box-shadow:var(--shadow);padding:32px}
+.summer-hero-card-top{font-size:12px;font-weight:900;letter-spacing:.15em;color:#ff7079;margin-bottom:22px}
+.summer-hero-card strong{font-size:52px;line-height:.98}
+.summer-hero-card strong span{color:var(--red)}
+.summer-hero-card small{margin-top:24px;color:#d4dfe9;letter-spacing:.08em}
+.summer-intro{padding:72px 0}
+.summer-intro .center-heading p{max-width:780px;margin:0 auto;color:var(--muted)}
+.summer-benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:32px}
+.summer-benefit-grid>div{border:1px solid var(--line);border-radius:18px;padding:24px;background:#fff}
+.summer-benefit-grid b{color:var(--red);font-size:12px;letter-spacing:.12em}
+.summer-benefit-grid h3{color:var(--navy);margin:10px 0 6px}
+.summer-benefit-grid p{color:var(--muted);font-size:14px;margin:0}
+.summer-country-section{padding:72px 0;background:#f7f9fc}
+.summer-country-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:28px}
+.summer-country-card{min-height:330px;border-radius:24px;padding:30px;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;position:relative;overflow:hidden}
+.summer-country-card:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,42,74,.08),rgba(11,42,74,.92));z-index:0}
+.summer-country-card>*{position:relative;z-index:1}
+.summer-country-card.australia{background:linear-gradient(135deg,#e60012,#0b2a4a)}
+.summer-country-card.nz{background:linear-gradient(135deg,#0b2a4a,#1b6b7a)}
+.summer-country-tag{font-size:12px;font-weight:900;letter-spacing:.1em}
+.summer-country-card h3{font-size:30px;margin:8px 0}
+.summer-country-card p{max-width:520px;color:#edf3f8}
+.summer-country-card a{font-weight:900;margin-top:8px}
+.summer-process{padding:72px 0}
+.summer-process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:26px}
+.summer-process-grid>div{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}
+.summer-process-grid span{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--red);color:#fff;font-weight:900}
+.summer-process-grid h3{color:var(--navy);margin:14px 0 6px}
+.summer-process-grid p{color:var(--muted);font-size:14px;margin:0}
+.summer-cta{padding:0;background:#fff}
+.summer-cta-inner{background:linear-gradient(120deg,#0b2a4a,#123f6c);border-radius:26px;padding:34px 38px;display:flex;align-items:center;justify-content:space-between;gap:28px;color:#fff}
+.summer-cta small{color:#ff737c;font-weight:900;letter-spacing:.12em}
+.summer-cta h2{margin:6px 0;font-size:34px}
+.summer-cta p{color:#dbe5ee;max-width:760px;margin:0}
+@media(max-width:900px){.summer-feature,.summer-page-grid{grid-template-columns:1fr}.summer-benefit-grid,.summer-process-grid{grid-template-columns:1fr 1fr}.summer-hero-card{min-height:300px}.summer-country-grid{grid-template-columns:1fr}}
+@media(max-width:640px){.summer-feature-copy{padding:24px 20px}.summer-feature-side{min-height:220px;padding:24px}.summer-benefit-grid,.summer-process-grid{grid-template-columns:1fr}.summer-page-hero{padding:48px 0}.summer-page-hero h1{font-size:44px}.summer-hero-card strong{font-size:40px}.summer-cta-inner{display:block;padding:28px 24px}.summer-cta .btn{margin-top:18px}}
