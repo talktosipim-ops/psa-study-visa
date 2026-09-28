@@ -910,3 +910,35 @@ body{background:#FFFDF7!important}
   .travel-final-cta .final-cta-grid{grid-template-columns:1fr!important}
   .travel-final-cta .final-cta-grid>div:first-child{padding:28px 24px!important}
 }
+
+
+/* Study Abroad partner section */
+.study-abroad-section{padding:82px 0;background:#FFFDF7}
+.study-abroad-head{display:flex;justify-content:space-between;gap:38px;align-items:end;margin-bottom:22px}
+.study-abroad-head>div:first-child{max-width:760px}
+.study-abroad-head p{color:var(--muted);font-size:16px;margin:8px 0 0;line-height:1.7}
+.study-abroad-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+.partner-country-row{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}
+.partner-country-row span{border:1px solid #DCE9E8;background:#fff;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:800;color:#146B6D}
+.study-partner-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.study-partner-card{display:block;background:#fff;border:1px solid #DCE9E8;border-radius:18px;padding:22px;min-height:185px;box-shadow:0 8px 24px rgba(24,168,166,.05);transition:.2s}
+.study-partner-card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(24,168,166,.10);border-color:#BFE0DE}
+.study-partner-card small{font-size:10px;letter-spacing:.12em;font-weight:900;color:#F47B4A}
+.study-partner-card h3{font-size:19px;line-height:1.25;color:#146B6D;margin:10px 0 7px}
+.study-partner-card p{font-size:13px;color:#607678;margin:0 0 16px}
+.study-partner-card span{font-size:12px;color:#52696B;line-height:1.5}
+.study-abroad-note{margin-top:20px;background:linear-gradient(120deg,#18A8A6,#146B6D);color:#fff;border-radius:20px;padding:24px 28px;display:flex;justify-content:space-between;align-items:center;gap:24px}
+.study-abroad-note strong{display:block;font-size:20px;margin-bottom:3px}
+.study-abroad-note span{color:#E7F6F5;font-size:14px}
+.study-abroad-note .btn-primary{white-space:nowrap}
+@media(max-width:900px){
+  .study-abroad-head{display:block}
+  .study-abroad-actions{justify-content:flex-start;margin-top:18px}
+  .study-partner-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+  .study-abroad-section{padding:58px 0}
+  .study-partner-grid{grid-template-columns:1fr}
+  .study-abroad-note{display:block;padding:22px}
+  .study-abroad-note .btn{margin-top:16px}
+}
