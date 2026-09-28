@@ -396,3 +396,17 @@ linear-gradient(180deg,rgba(255,255,255,0) 55%,rgba(7,27,47,.22) 100%)}
   .hero-motion-slide{animation:none!important;opacity:0}
   .hero-motion .slide-1{opacity:1}
 }
+
+.legal-trust-line{
+  max-width:1180px;
+  margin:14px auto 0;
+  padding:14px 18px 0;
+  border-top:1px solid rgba(255,255,255,.12);
+  text-align:center;
+  font-size:12px;
+  line-height:1.6;
+  color:#aebdca;
+}
+@media(max-width:640px){
+  .legal-trust-line{font-size:11px;padding-left:18px;padding-right:18px}
+}
