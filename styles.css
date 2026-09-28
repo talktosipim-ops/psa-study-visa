@@ -347,3 +347,52 @@ linear-gradient(180deg,rgba(255,255,255,0) 55%,rgba(7,27,47,.22) 100%)}
 .summer-cta p{color:#dbe5ee;max-width:760px;margin:0}
 @media(max-width:900px){.summer-feature,.summer-page-grid{grid-template-columns:1fr}.summer-benefit-grid,.summer-process-grid{grid-template-columns:1fr 1fr}.summer-hero-card{min-height:300px}.summer-country-grid{grid-template-columns:1fr}}
 @media(max-width:640px){.summer-feature-copy{padding:24px 20px}.summer-feature-side{min-height:220px;padding:24px}.summer-benefit-grid,.summer-process-grid{grid-template-columns:1fr}.summer-page-hero{padding:48px 0}.summer-page-hero h1{font-size:44px}.summer-hero-card strong{font-size:40px}.summer-cta-inner{display:block;padding:28px 24px}.summer-cta .btn{margin-top:18px}}
+
+
+/* Animated international student life hero */
+.hero-clean .hero-cover-wrap{isolation:isolate}
+.hero-motion{
+  position:absolute;
+  inset:0;
+  overflow:hidden;
+  z-index:0;
+  background:#eaf0f6;
+}
+.hero-motion-slide{
+  position:absolute;
+  inset:-3%;
+  background-size:cover;
+  background-position:center;
+  opacity:0;
+  transform:scale(1.04);
+  animation:psaHeroCrossfade 18s infinite ease-in-out;
+  will-change:transform,opacity;
+}
+.hero-motion .slide-1{
+  background-image:url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&fm=jpg&q=82&w=2200');
+  background-position:center 45%;
+  animation-delay:0s;
+}
+.hero-motion .slide-2{
+  background-image:url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&fm=jpg&q=82&w=2200');
+  background-position:center 48%;
+  animation-delay:6s;
+}
+.hero-motion .slide-3{
+  background-image:url('https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&fm=jpg&q=82&w=2200');
+  background-position:center 42%;
+  animation-delay:12s;
+}
+@keyframes psaHeroCrossfade{
+  0%{opacity:0;transform:scale(1.04) translate3d(0,0,0)}
+  6%{opacity:1}
+  28%{opacity:1}
+  36%{opacity:0;transform:scale(1.12) translate3d(-1.2%,.6%,0)}
+  100%{opacity:0;transform:scale(1.12) translate3d(-1.2%,.6%,0)}
+}
+.hero-clean-shade{z-index:1!important}
+.hero-clean-copy{z-index:2!important}
+@media(prefers-reduced-motion:reduce){
+  .hero-motion-slide{animation:none!important;opacity:0}
+  .hero-motion .slide-1{opacity:1}
+}
