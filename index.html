@@ -37,24 +37,66 @@
   </header>
 
   <main>
-    <section class="travel-hero">
-      <div class="travel-hero-bg">
-        <div class="travel-slide travel-slide-1"></div>
-        <div class="travel-slide travel-slide-2"></div>
-        <div class="travel-slide travel-slide-3"></div>
+    <section class="travel-hero hero-carousel" aria-label="PSA services">
+      <div class="hero-carousel-track">
+        <article class="hero-carousel-slide is-active" data-hero-slide="0" style="--hero-image:url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=2200&q=82')">
+          <div class="hero-carousel-shade"></div>
+          <div class="container hero-carousel-content">
+            <div class="travel-kicker">TRAVEL & VISA</div>
+            <h1>Travel with Confidence</h1>
+            <p class="hero-carousel-thai">วางแผนเดินทาง วีซ่า และเที่ยวต่างประเทศอย่างมั่นใจ</p>
+            <p class="hero-carousel-copy">บริการวีซ่าท่องเที่ยว ตั๋วเครื่องบิน และการเตรียมตัวก่อนเดินทางสำหรับ Australia, New Zealand, UK, USA และ Europe</p>
+            <div class="travel-hero-actions">
+              <a class="btn btn-primary" href="visa-services.html">ปรึกษาเรื่องวีซ่า</a>
+              <a class="btn travel-ghost" href="#destinations">ดูข้อมูลปลายทาง</a>
+            </div>
+            <div class="travel-country-line">
+              <span>🇦🇺 Australia</span><span>🇳🇿 New Zealand</span><span>🇬🇧 UK</span><span>🇺🇸 USA</span><span>🇪🇺 Europe</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero-carousel-slide" data-hero-slide="1" style="--hero-image:url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=2200&q=82')">
+          <div class="hero-carousel-shade hero-carousel-shade-camp"></div>
+          <div class="container hero-carousel-content">
+            <div class="travel-kicker">SUMMER CAMP ABROAD</div>
+            <h1>Learn. Explore. Grow.</h1>
+            <p class="hero-carousel-thai">เปิดประสบการณ์เรียนรู้ สนุก และใช้ชีวิตต่างประเทศ</p>
+            <p class="hero-carousel-copy">Summer Camp สำหรับเยาวชนที่ผสมการเรียนภาษา กิจกรรม วัฒนธรรม และประสบการณ์เดินทางในต่างประเทศ</p>
+            <div class="travel-hero-actions">
+              <a class="btn btn-primary" href="summer-camp.html">ดู Summer Camp</a>
+              <a class="btn travel-ghost" href="summer-camp.html#customize">ออกแบบโปรแกรมของคุณ</a>
+            </div>
+            <div class="travel-country-line">
+              <span>English</span><span>Activities</span><span>Culture</span><span>Travel</span><span>Confidence</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero-carousel-slide" data-hero-slide="2" style="--hero-image:url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=2200&q=82')">
+          <div class="hero-carousel-shade hero-carousel-shade-study"></div>
+          <div class="container hero-carousel-content">
+            <div class="travel-kicker">STUDY ABROAD</div>
+            <h1>Study Abroad Pathways</h1>
+            <p class="hero-carousel-thai">เรียนต่อต่างประเทศกับสถาบันพันธมิตรของ PSA</p>
+            <p class="hero-carousel-copy">ค้นหาคอร์ส สถาบัน และเส้นทางเรียนต่อใน Australia และ New Zealand ผ่านสถาบันที่ PSA เป็นตัวแทนและทำงานร่วมด้วย</p>
+            <div class="travel-hero-actions">
+              <a class="btn btn-primary" href="#study-abroad">ดูสถาบันพันธมิตร</a>
+              <a class="btn travel-ghost" href="course-search.html">ค้นหาคอร์สเรียน</a>
+            </div>
+            <div class="travel-country-line">
+              <span>🇦🇺 Australia</span><span>🇳🇿 New Zealand</span><span>English</span><span>Business</span><span>IT & More</span>
+            </div>
+          </div>
+        </article>
       </div>
-      <div class="travel-hero-shade"></div>
-      <div class="container travel-hero-content">
-        <div class="travel-kicker">YOUR JOURNEY STARTS HERE</div>
-        <h1>เที่ยวได้ไกลกว่า<br><strong>เมื่อทุกอย่างเตรียมพร้อม</strong></h1>
-        <p>PSA ดูแลเรื่องวีซ่าท่องเที่ยว Summer Camp และตั๋วเครื่องบิน สำหรับ Australia, New Zealand, UK, USA และ Europe ให้การเดินทางของคุณเริ่มต้นง่ายขึ้นในที่เดียว</p>
-        <div class="travel-hero-actions">
-          <a class="btn btn-primary" href="visa-services.html">เริ่มเรื่องวีซ่า</a>
-          <a class="btn travel-ghost" href="flight-booking.html">เช็กราคาตั๋วเครื่องบิน</a>
-        </div>
-        <div class="travel-country-line">
-          <span>🇦🇺 Australia</span><span>🇳🇿 New Zealand</span><span>🇬🇧 UK</span><span>🇺🇸 USA</span><span>🇪🇺 Europe</span>
-        </div>
+
+      <button class="hero-carousel-arrow hero-carousel-prev" type="button" aria-label="สไลด์ก่อนหน้า">‹</button>
+      <button class="hero-carousel-arrow hero-carousel-next" type="button" aria-label="สไลด์ถัดไป">›</button>
+      <div class="hero-carousel-dots" role="tablist" aria-label="เลือกหัวข้อ">
+        <button class="is-active" type="button" aria-label="Travel & Visa" data-hero-dot="0"></button>
+        <button type="button" aria-label="Summer Camp" data-hero-dot="1"></button>
+        <button type="button" aria-label="Study Abroad" data-hero-dot="2"></button>
       </div>
     </section>
 
