@@ -42,3 +42,46 @@ if (!document.querySelector('.floating-messenger')) {
   messengerButton.innerHTML = '<span class="floating-messenger-icon" aria-hidden="true">✦</span><span class="floating-messenger-label">Chat with Us</span>';
   document.body.appendChild(messengerButton);
 }
+
+
+/* Homepage service hero carousel */
+(() => {
+  const carousel = document.querySelector('.hero-carousel');
+  if (!carousel) return;
+
+  const slides = [...carousel.querySelectorAll('[data-hero-slide]')];
+  const dots = [...carousel.querySelectorAll('[data-hero-dot]')];
+  const prev = carousel.querySelector('.hero-carousel-prev');
+  const next = carousel.querySelector('.hero-carousel-next');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let index = 0;
+  let timer = null;
+
+  const show = (nextIndex) => {
+    index = (nextIndex + slides.length) % slides.length;
+    slides.forEach((slide, i) => slide.classList.toggle('is-active', i === index));
+    dots.forEach((dot, i) => dot.classList.toggle('is-active', i === index));
+  };
+
+  const stop = () => {
+    if (timer) clearInterval(timer);
+    timer = null;
+  };
+
+  const start = () => {
+    stop();
+    if (!reduceMotion) timer = setInterval(() => show(index + 1), 5500);
+  };
+
+  prev?.addEventListener('click', () => { show(index - 1); start(); });
+  next?.addEventListener('click', () => { show(index + 1); start(); });
+  dots.forEach((dot, i) => dot.addEventListener('click', () => { show(i); start(); }));
+
+  carousel.addEventListener('mouseenter', stop);
+  carousel.addEventListener('mouseleave', start);
+  carousel.addEventListener('focusin', stop);
+  carousel.addEventListener('focusout', start);
+
+  show(0);
+  start();
+})();
