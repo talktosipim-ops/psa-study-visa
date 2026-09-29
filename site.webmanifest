@@ -1,0 +1,9 @@
+{
+  "name": "PSA Study & VISA",
+  "short_name": "PSA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFDF8",
+  "theme_color": "#19B5E8",
+  "icons": []
+}
