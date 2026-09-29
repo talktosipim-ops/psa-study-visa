@@ -85,3 +85,37 @@ if (!document.querySelector('.floating-messenger')) {
   show(0);
   start();
 })();
+
+
+/* PSA contact Messenger handoff */
+(() => {
+  const form = document.querySelector('#psaContactForm');
+  if (!form) return;
+  const status = document.querySelector('#contactStatus');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    const text = [
+      'สวัสดี PSA, ต้องการสอบถามบริการค่ะ/ครับ',
+      '',
+      'ชื่อ: ' + (fd.get('name') || ''),
+      'ช่องทางติดต่อ: ' + (fd.get('contact') || ''),
+      'บริการ: ' + (fd.get('service') || ''),
+      'ประเทศ: ' + (fd.get('country') || ''),
+      'รายละเอียด: ' + (fd.get('message') || '')
+    ].join('\n');
+    try {
+      await navigator.clipboard.writeText(text);
+      if (status) {
+        status.style.display = 'block';
+        status.textContent = 'คัดลอกข้อมูลแล้ว กำลังเปิด Messenger — วางข้อความแล้วส่งถึง PSA ได้เลย';
+      }
+    } catch (_) {
+      if (status) {
+        status.style.display = 'block';
+        status.textContent = 'กำลังเปิด Messenger กรุณาส่งรายละเอียดจากแบบฟอร์มนี้ถึง PSA';
+      }
+    }
+    window.open('https://m.me/planstudyagency', '_blank', 'noopener');
+  });
+})();
