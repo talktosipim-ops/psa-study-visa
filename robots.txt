@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://psa-study-visa.pages.dev/sitemap.xml
+Sitemap: https://psaglobal.com.au/sitemap.xml
