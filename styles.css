@@ -1231,3 +1231,274 @@ body{background:#FFFDF8!important;color:var(--ink)!important}
     background:linear-gradient(180deg,rgba(7,63,91,.92) 0%,rgba(13,110,153,.76) 58%,rgba(25,181,232,.38) 100%)!important
   }
 }
+
+
+/* PSA Global Education Consulting — Crimson-inspired palette */
+:root{
+  --crimson-orange:#FF6C3E;
+  --crimson-navy:#333456;
+  --crimson-indigo:#5157A5;
+  --crimson-mirage:#1B1E2C;
+  --crimson-mist:#F5FAFD;
+  --crimson-storm:#7D7F88;
+  --crimson-line:#E8E8E8;
+  --red:#FF6C3E;
+  --red-dark:#E75A2F;
+  --navy:#333456;
+  --deep-green:#333456;
+  --mint:#F5FAFD;
+  --yellow:#FF6C3E;
+  --ink:#1B1E2C;
+  --muted:#7D7F88;
+  --line:#E8E8E8;
+  --soft:#F5FAFD;
+  --white:#fff;
+  --shadow:0 18px 50px rgba(51,52,86,.12);
+}
+
+body{
+  background:#fff!important;
+  color:#1B1E2C!important;
+}
+
+/* Header / navigation */
+.header,.header-v2{
+  background:rgba(255,255,255,.98)!important;
+  border-bottom:1px solid #E8E8E8!important;
+  box-shadow:0 4px 22px rgba(27,30,44,.04)!important;
+}
+.travel-utility{
+  background:#333456!important;
+  color:#fff!important;
+}
+.brand,.brandtext,.navlinks a{
+  color:#333456!important;
+}
+.brandmark,.brandmark-v2{
+  background:linear-gradient(145deg,#333456,#5157A5)!important;
+  box-shadow:none!important;
+}
+.brandmark:after,.brandmark-v2:after{
+  background:#FF6C3E!important;
+}
+.brandtext small{
+  color:#7D7F88!important;
+}
+.navlinks a:after{
+  background:#FF6C3E!important;
+}
+.navcta,.btn-primary{
+  background:#FF6C3E!important;
+  color:#fff!important;
+  box-shadow:0 10px 24px rgba(255,108,62,.20)!important;
+}
+.navcta:hover,.btn-primary:hover{
+  background:#E75A2F!important;
+  transform:translateY(-1px);
+}
+.btn-secondary{
+  background:#fff!important;
+  color:#333456!important;
+  border-color:#D1D1D1!important;
+}
+
+/* Main hero */
+.travel-hero,.hero-carousel{
+  background:#333456!important;
+}
+.travel-hero:before{
+  background:linear-gradient(90deg,rgba(27,30,44,.93) 0%,rgba(51,52,86,.84) 48%,rgba(81,87,165,.22) 100%)!important;
+}
+.travel-kicker,.section-kicker{
+  color:#FF6C3E!important;
+}
+.travel-hero h1,.hero-carousel-content h1{
+  color:#fff!important;
+}
+.travel-hero p,.hero-carousel-copy{
+  color:rgba(255,255,255,.88)!important;
+}
+.travel-ghost{
+  background:rgba(255,255,255,.08)!important;
+  border-color:rgba(255,255,255,.42)!important;
+  color:#fff!important;
+}
+.travel-country-line span{
+  background:rgba(255,255,255,.09)!important;
+  border-color:rgba(255,255,255,.16)!important;
+  color:#fff!important;
+}
+
+/* Light Crimson-style surfaces */
+.page-hero,
+.travel-services,
+.study-abroad-section,
+.summer-travel-feature,
+.custom-camp-section,
+.summer-intro,
+.summer-country-section,
+.article-grid,
+.contact-grid{
+  background:#F5FAFD!important;
+}
+.travel-services:nth-of-type(even),
+.study-abroad-section:nth-of-type(even){
+  background:#fff!important;
+}
+
+/* Typography */
+.section-title,
+.travel-service-grid h3,
+.study-abroad-head h2,
+.summer-travel-copy h2,
+.page-hero h1,
+.article h3,
+.contact-card h2{
+  color:#333456!important;
+}
+body p,
+.travel-section-head p,
+.study-abroad-head p,
+.article p{
+  color:#5F626E!important;
+}
+
+/* Cards */
+.travel-service-grid article,
+.study-partner-card,
+.article,
+.contact-card,
+.searchbox,
+.custom-options-grid>div,
+.summer-benefit-grid>div,
+.summer-country-card,
+.summer-process-grid>div{
+  background:#fff!important;
+  border:1px solid #E8E8E8!important;
+  box-shadow:0 12px 34px rgba(51,52,86,.07)!important;
+}
+.travel-service-grid article:hover,
+.study-partner-card:hover,
+.article:hover{
+  border-color:#D1D1D1!important;
+  box-shadow:0 18px 44px rgba(51,52,86,.12)!important;
+}
+.travel-service-icon{
+  background:#333456!important;
+  color:#fff!important;
+}
+.travel-service-grid article:nth-child(2) .travel-service-icon,
+.travel-service-grid article:nth-child(4) .travel-service-icon{
+  background:#5157A5!important;
+}
+.travel-service-grid a,
+.text-link,
+.partner-site-link{
+  color:#FF6C3E!important;
+}
+
+/* Institutional section */
+.study-abroad-section{
+  background:#F5FAFD!important;
+}
+.study-abroad-note,
+.custom-camp-flow,
+.english-phrase-box,
+.english-cta-inner{
+  background:linear-gradient(135deg,#333456,#5157A5)!important;
+}
+.partner-country-row span{
+  background:#fff!important;
+  color:#333456!important;
+  border-color:#D1D1D1!important;
+}
+
+/* Summer programs */
+.summer-travel-copy{
+  background:#333456!important;
+}
+.summer-travel-copy h2,
+.summer-travel-copy h2 span,
+.summer-travel-copy p{
+  color:#fff!important;
+}
+.summer-travel-tags span{
+  background:rgba(255,255,255,.10)!important;
+  color:#fff!important;
+  border-color:rgba(255,255,255,.15)!important;
+}
+.custom-camp-badge{
+  background:#FF6C3E!important;
+}
+.hero-priority-badge{
+  background:#FFF1EC!important;
+  border-color:#FFD3C4!important;
+  color:#333456!important;
+}
+
+/* CTA */
+.summer-cta,
+.travel-final-cta,
+.final-cta-v2{
+  background:#333456!important;
+}
+.summer-cta h2,
+.summer-cta p,
+.summer-cta small,
+.travel-final-cta h2,
+.travel-final-cta p{
+  color:#fff!important;
+}
+
+/* Forms */
+.input,
+input,
+select,
+textarea{
+  border-color:#D1D1D1!important;
+  background:#fff!important;
+  color:#1B1E2C!important;
+}
+.input:focus,
+input:focus,
+select:focus,
+textarea:focus{
+  border-color:#5157A5!important;
+  box-shadow:0 0 0 3px rgba(81,87,165,.10)!important;
+}
+
+/* Footer */
+.footer,.footer-v2{
+  background:#1B1E2C!important;
+  color:#fff!important;
+}
+.footer a{
+  color:#fff!important;
+}
+.footer-bottom,
+.footer .small,
+.legal-trust-line{
+  color:#D1D1D1!important;
+}
+.legal-trust-line{
+  border-top-color:rgba(255,255,255,.10)!important;
+}
+
+/* Small accents */
+.notice{
+  background:#F5FAFD!important;
+  border-color:#D1D1D1!important;
+}
+.check i{
+  background:#FF6C3E!important;
+  color:#fff!important;
+}
+.breadcrumb{
+  color:#7D7F88!important;
+}
+
+@media(max-width:640px){
+  .travel-hero:before{
+    background:linear-gradient(180deg,rgba(27,30,44,.94) 0%,rgba(51,52,86,.82) 64%,rgba(81,87,165,.45) 100%)!important;
+  }
+}
