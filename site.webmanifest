@@ -1,9 +1,9 @@
 {
-  "name": "PSA Study & VISA",
-  "short_name": "PSA",
+  "name": "PSA Global Education Consulting",
+  "short_name": "PSA Global",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FFFDF8",
-  "theme_color": "#19B5E8",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0D6E99",
   "icons": []
 }
